@@ -1,0 +1,24 @@
+body {
+  cursor: none;
+  overflow: hidden;
+}
+
+#cursor {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #01321f33;
+  border-radius: 50%;
+  box-shadow:0 0 10px #01321f;
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+
+#canvas1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
